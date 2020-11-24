@@ -175,3 +175,45 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+.projects-title {
+  font-style: 400;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.projects-content {
+  font-style: 400;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.modal-button {
+  font-style: 400;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.modal-btn-style {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+}
