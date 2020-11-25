@@ -4,11 +4,45 @@
   --accent-color: #2196f3;
 }
 
-.body {
-  background: var(--accent-color);
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline #2196f3;
+}
+
+a:focus {
+  text-decoration: underline #2196f3;
+}
+
+button:hover {
+  text-decoration: underline #2196f3;
+}
+
+button:focus {
+  text-decoration: underline #2196f3;
+}
+
+.address-list:hover {
+  text-decoration: underline #2196f3;
+}
+
+.address-list:focus {
+  text-decoration: underline #2196f3;
 }
 
 .nav-logo {
+  font-family: "Raleway", sans-serif;
   color: var(--black-color);
   text-decoration: none;
   font-weight: 700;
@@ -19,6 +53,7 @@
 
 .nav-logo span {
   color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
 }
 
 .nav-menu-item {
@@ -37,7 +72,31 @@
   color: var(--accent-color);
 }
 
+.nav-studio-p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.nav-portfolio-p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
 .nav-portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.nav-contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -60,6 +119,14 @@
   color: var(--accent-color);
 }
 
+.contacts-tel-p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
 .hero-name {
   font-style: normal;
   font-weight: 900;
@@ -69,6 +136,9 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.hero {
   background: #2f303a;
 }
 
@@ -84,6 +154,11 @@
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 437px;
 }
 
 .title-advantages {
@@ -153,9 +228,11 @@
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #ffffff;
+  font-family: "Raleway", sans-serif;
 }
 .footer-logo-link span {
   color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
 }
 
 .address-list {
@@ -194,6 +271,10 @@
   color: #757575;
 }
 
+.developer-services {
+  color: #ffffff;
+}
+
 .modal-button {
   font-style: 400;
   font-weight: 500;
@@ -206,8 +287,13 @@
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
 }
-.modal-btn-style {
+.modal-btn-design {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -216,4 +302,45 @@
   letter-spacing: 0.03em;
   color: #212121;
   background: #f5f4fa;
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.modal-btn-marketing {
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.modal-btn-vebsite {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.modal-btn-app {
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.our-advantages-list {
+  color: #ffffff;
 }
