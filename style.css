@@ -17,11 +17,11 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.nav-logo:hover {
   text-decoration: underline #2196f3;
 }
 
-a:focus {
+.footer-logo-link:hover {
   text-decoration: underline #2196f3;
 }
 
@@ -30,14 +30,6 @@ button:hover {
 }
 
 button:focus {
-  text-decoration: underline #2196f3;
-}
-
-.address-list:hover {
-  text-decoration: underline #2196f3;
-}
-
-.address-list:focus {
   text-decoration: underline #2196f3;
 }
 
@@ -116,7 +108,7 @@ button:focus {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  color: var(--accent-color);
+  color: #757575;
 }
 
 .contacts-tel-p {
@@ -143,7 +135,8 @@ button:focus {
 }
 
 .modal-btn {
-  font-weight: 400;
+  border: none;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.875;
   display: flex;
@@ -159,10 +152,11 @@ button:focus {
   height: 50px;
   left: 700px;
   top: 437px;
+  justify-content: center;
 }
 
 .title-advantages {
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -172,7 +166,7 @@ button:focus {
 }
 
 .text-advantages {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -180,7 +174,7 @@ button:focus {
 }
 
 .our-working-title {
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
@@ -190,7 +184,7 @@ button:focus {
 }
 
 .title {
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
@@ -222,14 +216,14 @@ button:focus {
 
 .footer-logo-link {
   text-decoration: none;
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #ffffff;
-  font-family: "Raleway", sans-serif;
 }
+
 .footer-logo-link span {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
@@ -254,7 +248,7 @@ button:focus {
 }
 
 .projects-title {
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -263,7 +257,7 @@ button:focus {
 }
 
 .projects-content {
-  font-style: 400;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
@@ -276,7 +270,8 @@ button:focus {
 }
 
 .modal-button {
-  font-style: 400;
+  border: none;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.875;
@@ -293,7 +288,9 @@ button:focus {
   left: 495px;
   top: 174px;
 }
+
 .modal-btn-design {
+  border: none;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -312,6 +309,14 @@ button:focus {
 }
 
 .modal-btn-marketing {
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
   position: absolute;
   width: 130px;
   height: 38px;
@@ -322,6 +327,14 @@ button:focus {
 }
 
 .modal-btn-vebsite {
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
   position: absolute;
   width: 128px;
   height: 38px;
@@ -332,6 +345,14 @@ button:focus {
 }
 
 .modal-btn-app {
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
   position: absolute;
   width: 145px;
   height: 38px;
@@ -343,4 +364,8 @@ button:focus {
 
 .our-advantages-list {
   color: #ffffff;
+}
+
+.our-advantages {
+  flex-basis: calc(100% / 3);
 }
